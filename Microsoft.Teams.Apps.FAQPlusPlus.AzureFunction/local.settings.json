@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "AzureWebJobsDashboard": "",
+    "QuestionAnswerSubscriptionKey": "",
+    "QuestionAnswerApiUrl": "",
+    "StorageConnectionString": "",
+    "SearchServiceName": "",
+    "SearchServiceAdminApiKey": "",
+    "SearchServiceQueryApiKey": "",
+    "IsGCCHybridDeployment": false,
+    "QuestionAnswerProjectName": "",
+    "DeploymentName": ""
+  }
+}
