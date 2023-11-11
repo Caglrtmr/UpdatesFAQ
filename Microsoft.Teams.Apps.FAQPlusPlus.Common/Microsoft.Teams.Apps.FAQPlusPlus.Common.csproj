@@ -1,4 +1,4 @@
-﻿<Project  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,79 +10,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AdaptiveCards">
-      <Version>3.1.0</Version>
-    </PackageReference>
-    <PackageReference Include="Azure.AI.Language.QuestionAnswering" >
-       <Version>1.1.0</Version>
-    </PackageReference>
-    <PackageReference Include="Azure.AI.OpenAI">
-      <Version>1.0.0-beta.5</Version>
-    </PackageReference>
-    <PackageReference Include="Azure.Core">
-     
-      <Version>1.35.0</Version>
-    </PackageReference>
-    <PackageReference Include="Azure.Search.Documents" >
-
-      <Version>11.5.0-beta.2</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.ApplicationInsights" >
-
-      <Version>2.21.0</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Azure.Search">
-
-      <Version>10.1.0</Version>
-    </PackageReference>
-
-    <PackageReference Include="Microsoft.Bot.Builder" >
-
-      <Version>4.21.1</Version>
-    </PackageReference>
-
-    <PackageReference Include="Microsoft.Bot.Connector" >
-
-      <Version>4.21.1</Version>
-    </PackageReference>
-
-    <PackageReference Include="Microsoft.Bot.Schema" >
-
-      <Version>4.21.1</Version>
-    </PackageReference>
-
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" >
-
-      <Version>7.0.0</Version>
-    </PackageReference>
-
-    <PackageReference Include="Microsoft.Extensions.Configuration" >
-
-      <Version>7.0.0</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Logging" >
-
-      <Version>7.0.0</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Options" >
-
-      <Version>7.0.1</Version>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json">
-
-      <Version>13.0.3</Version>
-    </PackageReference>
-    <PackageReference Include="StyleCop.Analyzers">
-     <Version>1.1.118</Version>
+    <PackageReference Include="AdaptiveCards" Version="3.1.0" />
+    <PackageReference Include="Azure.AI.Language.QuestionAnswering" Version="1.1.0" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.5" />
+    <PackageReference Include="Azure.Core" Version="1.35.0" />
+    <PackageReference Include="Azure.Search.Documents" Version="11.5.0-beta.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.Azure.Search" Version="10.1.0" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.21.1" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.21.1" />
+    <PackageReference Include="Microsoft.Bot.Schema" Version="4.21.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="System.ComponentModel.Annotations" >
-      <Version>5.0.0</Version>
-    </PackageReference>
-    <PackageReference Include="WindowsAzure.Storage">
-      <Version>9.3.3</Version>
-    </PackageReference>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
   </ItemGroup>
 
   <ItemGroup>
